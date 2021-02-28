@@ -1,0 +1,207 @@
+h1 {
+  margin-top: 2rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size:x-large;
+  font-style:oblique;
+  line-height:180%;
+  float: left;
+  text-align: left;
+  margin-left: 2rem;
+}
+button{
+  color: black;
+}
+.s1{
+padding-top: 5rem;
+}
+.s1 p{
+  margin-top: 1rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:large;
+  font-style:oblique;
+}
+
+
+a{
+  color: black;
+}
+.bg{
+ /* background-image: url("/img/BG-NEW.png"); */
+ background-color: #001d26;
+ overflow:hidden;
+ color: white;
+ margin-top: -3.9rem;
+padding-top: 10rem;
+padding-bottom: 4rem;
+}
+.p-footer{
+  margin-top: 2rem;
+  color: white;
+}
+
+
+
+
+.footer {
+position: relative;
+text-align: center;
+top: 12.9rem;
+ width: 100%;
+height: 60px;
+background-color:#001d26; 
+}
+  .footer-padding {
+	padding-bottom: 60px;
+}
+
+     /* NAVIGATION */ 
+    .nav{
+      background-color:#001d26 ;
+
+    }
+
+    .nav  a {
+     
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin: 0 1rem;
+      color: white;
+    }
+    .nav a,
+    .nav  a:after,
+    .nav  a:before {
+      transition: all .5s;
+    }
+    .nav  a:hover {
+      color:cyan;
+    }
+    /* stroke */
+    .nav.stroke ul li a,
+    .nav.fill ul li a {
+      position: relative;
+    }
+    .nav.stroke ul li a:after,
+    .nav.fill ul li a:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background:cyan;
+      height: 1px;
+    }
+    .nav.stroke ul li a:hover:after {
+      width: 100%;
+    }
+    
+    .nav.fill ul li a {
+      transition: all 2s;
+    }
+    
+    .nav.fill ul li a:after {
+      text-align: left;
+      content: '.';
+      margin: 0;
+      opacity: 0;
+    }
+    .nav.fill ul li a:hover {
+      color:cyan;
+      z-index: 1;
+    }
+    .nav.fill ul li a:hover:after {
+      z-index: -10;
+      animation: fill 1s forwards;
+      -webkit-animation: fill 1s forwards;
+      -moz-animation: fill 1s forwards;
+      opacity: 1;
+    }
+
+ 
+.card-features {
+  flex:none ;
+  margin-top: 2rem;
+}
+.card-features p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 24px;
+    line-height: 29px;
+    letter-spacing: .192px;
+    color: #939496;
+}
+.img-bg{
+  border: 1px solid #e0e0e0;
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 100px 80px rgba(0,0,0,.07), 0 41.7776px 33.4221px rgba(0,0,0,.0503198), 0 22.3363px 17.869px rgba(0,0,0,.0417275), 0 12.5216px 10.0172px rgba(32,22,22,.035), 0 6.6501px 5.32008px rgba(0,0,0,.0282725), 0 2.76726px 2.21381px rgba(0,0,0,.0196802);
+
+}
+.cards{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.Classic{
+  background-color: #022631; 
+}
+
+.cards p{
+  font-size: 30px;
+    line-height: 33px;
+    letter-spacing: .192px;
+    font-weight: 300;
+    position: relative;
+    right: 3.8rem;
+  text-align: center;
+  color: white;  
+}
+
+.cards h2 {
+  font-size: 50px;
+    line-height: 56px;
+    letter-spacing: .192px;
+    font-weight: 400; 
+    text-align: center;
+    color: white;
+}
+
+.Gold{
+  background-color: #4e3d05;
+}
+
+.Gold.col-sm-6 img{
+  height: 50%;
+}
+
+
+.Platinum{
+  background-color:#6d6a6a;
+}
+.Platinum.col-sm-6 img{
+  height: 50%;
+}
+.home{
+  background-color:purple;
+}
+.home h2{
+  margin-top: 10rem;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 1;
+    /* text-align: right; */
+}
+.Classic.col-sm-6 img{
+  height: 50%;
+}
